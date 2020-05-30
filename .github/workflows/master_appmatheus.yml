@@ -26,4 +26,3 @@ jobs:
         app-name: 'appmatheus'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_d6adf39848a9423e878f90d796194cd2 }}
-        package: '${{ github.workspace }}/target/*.war'
